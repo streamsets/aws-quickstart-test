@@ -26,7 +26,7 @@ sch.start_deployment(deployment)
 # add sample stage libs
 # deployment.engine_configuration.stage_libs = ['dataformats', 'basic', 'dev', 'jdbc', 'aws']
 # update deployment with stage libs
-sch.update_deployment(deployment)
+# sch.update_deployment(deployment)
 
 install_script = sch.get_self_managed_deployment_install_script(
     deployment, install_mechanism="BACKGROUND")
